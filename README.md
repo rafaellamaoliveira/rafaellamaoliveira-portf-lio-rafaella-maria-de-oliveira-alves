@@ -1,4 +1,4 @@
-# [Rafaella Maria de Oliveira Alves]
+# [Rafaellla Maria de Oliveira Alves]
 > Estudante de Análise e Desenvolvimento de Sistemas.
  
 ---
