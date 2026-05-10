@@ -35,7 +35,8 @@ Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas Uni
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **Corrida de Prompt** | Dominação da técnica de comunicação com modelos de linguagem | [Ver Projeto](./projeto-corrida-de-prompt/) |
- 
+| **Laboratório de Classificação Visual** | Treinamentto de modelo de imagem. | [Ver Projeto](./projeto-de-laboratorio/) |
+
 ---
  
 ### 🏗 Estrutura do Repositório
