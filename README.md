@@ -22,18 +22,45 @@ Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas Uni
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
- 
+
+
 #### 🤖 Inteligência Artificial & Ciência de Dados
 *   [**ChatGPT**](https://chat.openai.com/) — Auxílio em lógica e refatoração de código.
 *   [**Gemini**](https://gemini.google.com/) — Assistente IA do Google para brainstorming e busca.
 *   [**Google AI Studio**](https://aistudio.google.com/) — Prototipagem e testes com modelos Gemini.
   
 ### 📂 Portfólio de Projetos
+
+#### 🤖 Inteligência Artificial
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Corrida de Prompt** | Dominação da técnica de comunicação com modelos de linguagem | [Ver Projeto](./projeto-corrida-de-prompt/) |
+ 
+---
+ 
+### 🏗 Estrutura do Repositório
+Abaixo, a organização deste repositório para facilitar a navegação:
+ 
+- `root/`: Arquivo de apresentação principal.
+- `/projeto-nome/`: Pasta contendo o código-fonte, documentação e o README específico do projeto acadêmico.
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Corrida de Prompt** | Dominação da técnica de comunicação com modelos de linguagem. | [Ver Projeto] ([./projeto-corrida-de-prompt/]
+|  | [Ver Projeto] ([./projeto-corrida-de-prompt/]
 | **La Douce Vie** | Criação de um site baseado em uma confeitaria. | [Ver Projeto]([./projeto-ia-churn/](https://la-douce-vie.bubbleapps.io/version-test?debug_mode=true)) |
  | **SoftGrid.io** | Criação de um site baseado em um design elegante e responsivo. | [Ver Projeto]([./projeto-ia-churn/]([https://aistudio.google.com/apps/e93fbf99-c71a-4cb3-8cd3-bb6242901f9a?showPreview=true&showAssistant=true)) |
 
