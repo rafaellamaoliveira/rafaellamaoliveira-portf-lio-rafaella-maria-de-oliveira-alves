@@ -33,7 +33,7 @@ Atualmente cursando o 1º período de Análise e Desenvolvimento de Sistemas Uni
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Corrida de Prompt** | Dominação da técnica de comunicação com modelos de linguagem. | [Ver Projeto] ([./projeto-de-corrida-de-prompt-/]
+| **Corrida de Prompt** | Dominação da técnica de comunicação com modelos de linguagem. | [Ver Projeto] ([./projeto-corrida-de-prompt/]
 | **La Douce Vie** | Criação de um site baseado em uma confeitaria. | [Ver Projeto]([./projeto-ia-churn/](https://la-douce-vie.bubbleapps.io/version-test?debug_mode=true)) |
  | **SoftGrid.io** | Criação de um site baseado em um design elegante e responsivo. | [Ver Projeto]([./projeto-ia-churn/]([https://aistudio.google.com/apps/e93fbf99-c71a-4cb3-8cd3-bb6242901f9a?showPreview=true&showAssistant=true)) |
 
