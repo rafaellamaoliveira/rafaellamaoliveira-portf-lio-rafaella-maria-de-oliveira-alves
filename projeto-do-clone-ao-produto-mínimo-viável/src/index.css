@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Open Sans', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* Modern Industrial Palette */
+  --color-base: #722F37; /* Wine Red / Burgundy */
+  --color-text: #FFFFFF;
+  --color-github-gray: #3d3d3d; /* Steel gray */
+  --color-star: #FFFFFF; /* Replaced yellow with white as requested */
+  
+  /* Industrial Accents */
+  --color-steel: #b4b4b4;
+  --color-wood: #4a2c2a;
+
+  /* Shadow Tokens adjusted for #722F37 */
+  --shadow-light: #83363f;
+  --shadow-dark: #61282f;
+
+  --radius-xl: 4px; /* More geometric/industrial */
+  --radius-2xl: 12px;
+}
+
+@layer base {
+  body {
+    @apply bg-base text-text antialiased font-sans;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+/* Custom Neumorphic Utilities */
+@layer utilities {
+  .neumorphic-flat {
+    background: var(--color-base);
+    box-shadow: 12px 12px 24px var(--shadow-dark), -12px -12px 24px var(--shadow-light);
+  }
+
+  .neumorphic-inset {
+    background: var(--color-base);
+    box-shadow: inset 12px 12px 24px var(--shadow-dark), inset -12px -12px 24px var(--shadow-light);
+  }
+
+  .neumorphic-button {
+    background: var(--color-base);
+    box-shadow: 4px 4px 8px var(--shadow-dark), -4px -4px 8px var(--shadow-light);
+    @apply transition-all duration-200 active:shadow-inner border border-white/5;
+  }
+
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    @apply rounded-lg p-6;
+  }
+
+  .industrial-border {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    @apply rounded-sm;
+  }
+}
+
+
