@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+<# 💠 Projeto Neumorphic System
 
-# Run and deploy your AI Studio app
+![Plataforma](https://img.shields.io/badge/Plataforma-Bubble.io-7046E8?style=for-the-badge&logo=bubble)
+![Design](https://img.shields.io/badge/Design-Neumorphism-E0E5EC?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Otimizado-success?style=for-the-badge)
 
-This contains everything you need to run your app locally.
+Este projeto é uma implementação de alta fidelidade baseada nos princípios de **Soft UI (Neumorfismo)**, focada em criar interfaces que parecem moldadas a partir do próprio plano de fundo, utilizando jogos de luz e sombra (extrusão) para definir a hierarquia visual.
 
-View your app in AI Studio: https://ai.studio/apps/3c3ee047-bcd3-4844-8901-2745a1f2908a
+---
 
-## Run Locally
+## 🎨 Conceito Visual e UX
 
-**Prerequisites:**  Node.js
+O design foi construído sobre a estética do **Neumorphism.io**, utilizando os seguintes parâmetros técnicos para garantir consistência:
 
+*   **Background Color:** `#E0E5EC` (ou similar conforme o tema).
+*   **Sombra de Luz:** Brancos suaves para simular a incidência de luz superior.
+*   **Sombra Escura:** Tons de cinza/azulados para profundidade.
+*   **Border Radius:** Curvaturas acentuadas para reforçar o aspecto orgânico.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Implementação no Bubble
+A interface evita o uso de bordas sólidas, utilizando **Box Shadows** complexas para separar camadas de interação, garantindo uma experiência táctil e moderna.
+
+---
+
+## ⚙️ Arquitetura de Software
+
+Seguindo os padrões de engenharia de software para sistemas escaláveis:
+
+### 🧩 Baixo Acoplamento e Alta Coesão
+*   **Lógica Modular:** Workflows organizados por pastas e categorias funcionais.
+*   **Responsabilidade Única:** Cada elemento de interface comunica-se com a API/Banco de dados através de gatilhos específicos, facilitando a manutenção e futuras refatorações.
+
+### 🔄 Portabilidade e Governança
+*   **Exit Strategy:** Plano de mitigação de *vendor lock-in* ativo, com documentação clara dos fluxos para possível reconstrução em outras linguagens (Python/Node.js).
+*   **Exportação:** Endpoints de API configurados para extração integral de dados em formato JSON/CSV.
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
+├── documentation/
+│   ├── api-specs.md       # Definições de endpoints
+│   └── architecture.pdf   # Mapa de fluxo de dados
+├── styles/
+│   └── design-system.json # Definições de cores e sombras (Neumorphism)
+└── README.md
